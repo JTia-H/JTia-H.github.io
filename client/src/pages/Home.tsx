@@ -95,7 +95,7 @@ export default function Home() {
 
         <section className="cv-section" id="education" aria-labelledby="education-title">
           <h2 id="education-title" className="section-title">
-            <img className="section-title__icon" src="/assets/jiaxin-calico-gray.jpg" alt="" />
+            <img className="section-title__icon section-title__icon--head" src="/assets/jiaxin-calico-head.jpg" alt="" />
             Education
           </h2>
           <ul className="cv-list">
