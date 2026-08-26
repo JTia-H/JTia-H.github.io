@@ -56,21 +56,7 @@ export default function Home() {
       <main id="main-content" className="content-column">
         <section className="profile" aria-labelledby="profile-name">
           <div className="profile__text">
-            <div className="profile__name-row">
-              <h1 id="profile-name">Jiaxin Tian</h1>
-              <div className="profile__photos">
-                <img
-                  className="profile__image"
-                  src="/assets/jiaxin-calico-gray.jpg"
-                  alt="Jiaxin Tian’s calico cat"
-                />
-                <img
-                  className="profile__image"
-                  src="/assets/jiaxin-cat-avatar.png"
-                  alt="Jiaxin Tian’s tuxedo cat"
-                />
-              </div>
-            </div>
+            <h1 id="profile-name">Jiaxin Tian</h1>
             <p>
               I am a Ph.D. student in Chemical &amp; Biological Engineering at
               The Hong Kong University of Science and Technology, advised by{" "}
