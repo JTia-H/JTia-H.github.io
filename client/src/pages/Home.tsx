@@ -27,7 +27,7 @@ const publications = [
     venue: "Chemical Science, 16(35), 15913–15925",
     year: "2025",
     citations: "12 citations",
-    url: "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=z0qx-qMAAAAJ:u5HHmVD_uO8C",
+    url: "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=z0qx-qMAAAAJ&citation_for_view=z0qx-qMAAAAJ:u5HHmVD_uO8C",
   },
   {
     title:
@@ -36,7 +36,7 @@ const publications = [
     venue: "Journal of Chemical Information and Modeling, 65(12), 6027–6037",
     year: "2025",
     citations: "4 citations",
-    url: "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=z0qx-qMAAAAJ:u-x6o8ySG0sC",
+    url: "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=z0qx-qMAAAAJ&citation_for_view=z0qx-qMAAAAJ:u-x6o8ySG0sC",
   },
   {
     title:
@@ -45,7 +45,7 @@ const publications = [
     venue: "Advanced Functional Materials, e22089",
     year: "2026",
     citations: "",
-    url: "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=z0qx-qMAAAAJ:2osOgNQ5qMEC",
+    url: "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=z0qx-qMAAAAJ&citation_for_view=z0qx-qMAAAAJ:2osOgNQ5qMEC",
   },
 ];
 
