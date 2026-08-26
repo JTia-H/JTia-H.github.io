@@ -124,7 +124,7 @@ export default function Home() {
         <section className="cv-section publications" id="publications" aria-labelledby="publications-title">
           <div className="section-heading-row">
             <h2 id="publications-title" className="section-title">
-              <img className="section-title__icon section-title__icon--center" src="/assets/jiaxin-dog.jpg" alt="" />
+              <img className="section-title__icon section-title__icon--center" src="/assets/jiaxin-dog-full.jpg" alt="" />
               Publications
             </h2>
             <a href={scholarProfile} target="_blank" rel="noreferrer">Google Scholar ↗</a>
