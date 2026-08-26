@@ -116,6 +116,8 @@ a:hover, a:focus-visible { text-decoration: underline; text-underline-offset: 2p
   color: #737373;
   font-size: 0.8rem;
 }
+.page-footer p { margin: 0; }
+.page-footer__pets { margin-top: 0.35rem; }
 
 @media (max-width: 210mm) {
   :root { --page-gutter: 1.25rem; }

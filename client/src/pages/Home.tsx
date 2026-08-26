@@ -81,7 +81,7 @@ export default function Home() {
 
         <section className="cv-section" id="education" aria-labelledby="education-title">
           <h2 id="education-title" className="section-title">
-            <img className="section-title__icon section-title__icon--head" src="/assets/jiaxin-calico-head.jpg" alt="" />
+            <img className="section-title__icon section-title__icon--head" src="/assets/jiaxin-calico-head.jpg" alt="Erbao" />
             Education
           </h2>
           <ul className="cv-list">
@@ -102,7 +102,7 @@ export default function Home() {
 
         <section className="cv-section" id="research" aria-labelledby="research-title">
           <h2 id="research-title" className="section-title">
-            <img className="section-title__icon" src="/assets/jiaxin-cat-avatar.png" alt="" />
+            <img className="section-title__icon" src="/assets/jiaxin-cat-avatar.png" alt="Heihei" />
             Research Interests
           </h2>
           <ul className="cv-list cv-list--compact">
@@ -124,7 +124,7 @@ export default function Home() {
         <section className="cv-section publications" id="publications" aria-labelledby="publications-title">
           <div className="section-heading-row">
             <h2 id="publications-title" className="section-title">
-              <img className="section-title__icon section-title__icon--center" src="/assets/jiaxin-dog-full.jpg" alt="" />
+              <img className="section-title__icon section-title__icon--center" src="/assets/jiaxin-dog-full.jpg" alt="Nuomi (from Mia)" />
               Publications
             </h2>
             <a href={scholarProfile} target="_blank" rel="noreferrer">Google Scholar ↗</a>
@@ -147,7 +147,10 @@ export default function Home() {
           </div>
         </section>
       </main>
-      <footer className="page-footer">© {new Date().getFullYear()} Jiaxin Tian</footer>
+      <footer className="page-footer">
+        <p>© {new Date().getFullYear()} Jiaxin Tian</p>
+        <p className="page-footer__pets">(Erbao, Heihei, Nuomi (from Mia))</p>
+      </footer>
     </div>
   );
 }
