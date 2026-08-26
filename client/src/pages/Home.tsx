@@ -5,12 +5,16 @@
  */
 const scholarProfile =
   "https://scholar.google.com/citations?view_op=list_works&hl=zh-CN&user=z0qx-qMAAAAJ";
+const advisorChen =
+  "https://scholar.google.com/citations?user=rODiYsoAAAAJ&hl=en";
+const advisorLi =
+  "https://scholar.google.com/citations?user=x_z7k4QAAAAJ&hl=zh-CN&oi=ao";
 
 const publications = [
   {
     title:
       "Taming Two-Dimensional Polymerization by a Machine-Learning Discovered Crystallization Model",
-    authors: <><strong>J. Tian</strong>, K. A. Treaster, L. Xiong, Z. Wang, A. M. Evans, H. Li</>,
+    authors: <><strong>J. Tian</strong>, K. A. Treaster, L. Xiong, Z. Wang, A. M. Evans, <a href={advisorLi} target="_blank" rel="noreferrer">H. Li</a></>,
     venue: "Angewandte Chemie, 136(39), e202408937",
     year: "2024",
     citations: "15 citations",
@@ -19,7 +23,7 @@ const publications = [
   {
     title:
       "Intrinsic Mechanical Properties of Two-Dimensional Covalent Organic Frameworks",
-    authors: <>L. Xiong, C. Fu, <strong>J. Tian</strong>, Y. Geng, L. Han, H. Zhang, H. Li</>,
+    authors: <>L. Xiong, C. Fu, <strong>J. Tian</strong>, Y. Geng, L. Han, H. Zhang, <a href={advisorLi} target="_blank" rel="noreferrer">H. Li</a></>,
     venue: "Chemical Science, 16(35), 15913–15925",
     year: "2025",
     citations: "12 citations",
@@ -28,7 +32,7 @@ const publications = [
   {
     title:
       "MlCOFSyn: A Machine Learning Framework To Facilitate the Synthesis of 2D Covalent Organic Frameworks",
-    authors: <>Y. Shi, <strong>J. Tian</strong>, H. Li</>,
+    authors: <>Y. Shi*, <strong>J. Tian</strong>*, <a href={advisorLi} target="_blank" rel="noreferrer">H. Li</a></>,
     venue: "Journal of Chemical Information and Modeling, 65(12), 6027–6037",
     year: "2025",
     citations: "4 citations",
@@ -37,7 +41,7 @@ const publications = [
   {
     title:
       "Atomistic Structure, Motion, and Thermal Conductivity of van der Waals Grain Boundaries in Two-Dimensional Covalent Organic Frameworks",
-    authors: <>L. Xiong, Z. Wang, <strong>J. Tian</strong>, K. Du, J.-L. Brédas, H. Li</>,
+    authors: <>L. Xiong, Z. Wang, <strong>J. Tian</strong>, K. Du, J.-L. Brédas, <a href={advisorLi} target="_blank" rel="noreferrer">H. Li</a></>,
     venue: "Advanced Functional Materials, e22089",
     year: "2026",
     citations: "",
@@ -62,8 +66,8 @@ export default function Home() {
             </div>
             <p>
               I am a Ph.D. student in Chemical &amp; Biological Engineering at
-              The Hong Kong University of Science and Technology, advised by
-              Prof. Shensheng Chen.
+              The Hong Kong University of Science and Technology, advised by{" "}
+              <a href={advisorChen} target="_blank" rel="noreferrer">Prof. Shensheng Chen</a>.
             </p>
             <p>
               My research focuses on physics-informed AI for Science, intrinsically
@@ -87,11 +91,11 @@ export default function Home() {
           <ul className="cv-list">
             <li>
               <span className="cv-list__main"><strong>Ph.D.</strong> @ The Hong Kong University of Science and Technology, 2023–present</span>
-              <span>Department of Chemical &amp; Biological Engineering · Advisor: Prof. Shensheng Chen</span>
+              <span>Department of Chemical &amp; Biological Engineering · Advisor: <a href={advisorChen} target="_blank" rel="noreferrer">Prof. Shensheng Chen</a></span>
             </li>
             <li>
               <span className="cv-list__main"><strong>M.Sc.</strong> @ Shanghai University</span>
-              <span>School of Microelectronics · Advisor: Prof. Haoyuan Li</span>
+              <span>School of Microelectronics · Advisor: <a href={advisorLi} target="_blank" rel="noreferrer">Prof. Haoyuan Li</a></span>
             </li>
             <li>
               <span className="cv-list__main"><strong>B.Eng.</strong> @ Beijing Institute of Technology</span>
