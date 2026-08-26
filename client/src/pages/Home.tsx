@@ -14,7 +14,7 @@ const publications = [
   {
     title:
       "Taming Two-Dimensional Polymerization by a Machine-Learning Discovered Crystallization Model",
-    authors: <><strong>J. Tian</strong>, K. A. Treaster, L. Xiong, Z. Wang, A. M. Evans, <a href={advisorLi} target="_blank" rel="noreferrer">H. Li</a></>,
+    authors: <><strong>J. Tian</strong>, K. A. Treaster, L. Xiong, Z. Wang, A. M. Evans, H. Li</>,
     venue: "Angewandte Chemie, 136(39), e202408937",
     year: "2024",
     citations: "15 citations",
@@ -23,7 +23,7 @@ const publications = [
   {
     title:
       "Intrinsic Mechanical Properties of Two-Dimensional Covalent Organic Frameworks",
-    authors: <>L. Xiong, C. Fu, <strong>J. Tian</strong>, Y. Geng, L. Han, H. Zhang, <a href={advisorLi} target="_blank" rel="noreferrer">H. Li</a></>,
+    authors: <>L. Xiong, C. Fu, <strong>J. Tian</strong>, Y. Geng, L. Han, H. Zhang, H. Li</>,
     venue: "Chemical Science, 16(35), 15913–15925",
     year: "2025",
     citations: "12 citations",
@@ -32,7 +32,7 @@ const publications = [
   {
     title:
       "MlCOFSyn: A Machine Learning Framework To Facilitate the Synthesis of 2D Covalent Organic Frameworks",
-    authors: <>Y. Shi*, <strong>J. Tian</strong>*, <a href={advisorLi} target="_blank" rel="noreferrer">H. Li</a></>,
+    authors: <>Y. Shi*, <strong>J. Tian</strong>*, H. Li</>,
     venue: "Journal of Chemical Information and Modeling, 65(12), 6027–6037",
     year: "2025",
     citations: "4 citations",
@@ -41,7 +41,7 @@ const publications = [
   {
     title:
       "Atomistic Structure, Motion, and Thermal Conductivity of van der Waals Grain Boundaries in Two-Dimensional Covalent Organic Frameworks",
-    authors: <>L. Xiong, Z. Wang, <strong>J. Tian</strong>, K. Du, J.-L. Brédas, <a href={advisorLi} target="_blank" rel="noreferrer">H. Li</a></>,
+    authors: <>L. Xiong, Z. Wang, <strong>J. Tian</strong>, K. Du, J.-L. Brédas, H. Li</>,
     venue: "Advanced Functional Materials, e22089",
     year: "2026",
     citations: "",
