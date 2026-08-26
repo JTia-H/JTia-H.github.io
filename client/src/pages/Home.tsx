@@ -61,7 +61,7 @@ export default function Home() {
               <div className="profile__photos">
                 <img
                   className="profile__image"
-                  src="/assets/jiaxin-calico.jpg"
+                  src="/assets/jiaxin-calico-gray.jpg"
                   alt="Jiaxin Tian’s calico cat"
                 />
                 <img
