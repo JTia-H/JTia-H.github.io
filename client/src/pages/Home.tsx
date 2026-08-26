@@ -94,7 +94,10 @@ export default function Home() {
         </section>
 
         <section className="cv-section" id="education" aria-labelledby="education-title">
-          <h2 id="education-title">Education</h2>
+          <h2 id="education-title" className="section-title">
+            <img className="section-title__icon" src="/assets/jiaxin-calico-gray.jpg" alt="" />
+            Education
+          </h2>
           <ul className="cv-list">
             <li>
               <span className="cv-list__main"><strong>Ph.D.</strong> @ The Hong Kong University of Science and Technology, 2023–present</span>
@@ -112,7 +115,10 @@ export default function Home() {
         </section>
 
         <section className="cv-section" id="research" aria-labelledby="research-title">
-          <h2 id="research-title">Research Interests</h2>
+          <h2 id="research-title" className="section-title">
+            <img className="section-title__icon" src="/assets/jiaxin-cat-avatar.png" alt="" />
+            Research Interests
+          </h2>
           <ul className="cv-list cv-list--compact">
             <li>
               <span className="cv-list__main"><strong>Intrinsically Disordered Proteins and LLPS</strong></span>
