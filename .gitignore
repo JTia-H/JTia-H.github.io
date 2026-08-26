@@ -25,6 +25,8 @@ build/
 .DS_Store
 .DS_Store?
 ._*
+*.HEIC
+*.heic
 .Spotlight-V100
 .Trashes
 ehthumbs.db

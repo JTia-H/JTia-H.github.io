@@ -58,11 +58,18 @@ export default function Home() {
           <div className="profile__text">
             <div className="profile__name-row">
               <h1 id="profile-name">Jiaxin Tian</h1>
-              <img
-                className="profile__image"
-                src="/assets/jiaxin-cat-avatar.png"
-                alt="Jiaxin Tian’s cat"
-              />
+              <div className="profile__photos">
+                <img
+                  className="profile__image"
+                  src="/assets/jiaxin-portrait.jpg"
+                  alt="Jiaxin Tian’s calico cat"
+                />
+                <img
+                  className="profile__image"
+                  src="/assets/jiaxin-cat-avatar.png"
+                  alt="Jiaxin Tian’s tuxedo cat"
+                />
+              </div>
             </div>
             <p>
               I am a Ph.D. student in Chemical &amp; Biological Engineering at
