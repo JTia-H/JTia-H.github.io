@@ -83,7 +83,7 @@ a:hover, a:focus-visible { text-decoration: underline; text-underline-offset: 2p
 .profile p { margin: 0 0 0.75rem; }
 .profile__links { display: flex; flex-wrap: wrap; gap: 0.44rem; margin-top: 1.05rem; }
 .profile__links span { color: #8b8b8b; }
-.profile__image { display: block; width: 94px; height: 94px; object-fit: cover; object-position: center 38%; }
+.profile__image { display: block; width: 94px; height: 94px; object-fit: cover; object-position: center 38%; background: var(--page); }
 
 .cv-section { padding-top: 3.25rem; }
 .cv-section h2 { margin: 0 0 0.95rem; font-size: 1.25rem; font-weight: 600; letter-spacing: -0.02em; line-height: 1.2; }
