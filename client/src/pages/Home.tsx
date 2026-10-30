@@ -8,7 +8,7 @@ const scholarProfile =
 const advisorChen =
   "https://scholar.google.com/citations?user=rODiYsoAAAAJ&hl=en";
 const advisorLi =
-  "https://scholar.google.com/citations?user=x_z7k4QAAAAJ&hl=zh-CN&oi=ao";
+  "https://scholar.google.com/citations?hl=zh-CN&user=x_z7k4QAAAAJ&view_op=list_works&sortby=pubdate";
 
 const publications = [
   {
@@ -61,6 +61,13 @@ export default function Home() {
               I am a Ph.D. student in Chemical &amp; Biological Engineering at
               The Hong Kong University of Science and Technology, advised by{" "}
               <a href={advisorChen} target="_blank" rel="noreferrer">Prof. Shensheng Chen</a>.
+            </p>
+            <p>
+              Previously, during my Master's study under the supervision of{" "}
+              <a href={advisorLi} target="_blank" rel="noreferrer">Prof. Haoyuan Li</a>, I pioneered
+              machine-learning-driven crystallization engines (such as NEgen1) and open-source
+              software platforms (such as MlCOFSyn) to model non-classical polymerization kinetics
+              and automate the synthesis of 2D Covalent Organic Frameworks (COFs).
             </p>
             <p>
               I design Physics-Informed AI frameworks—leveraging Transformers, Prior-Data
