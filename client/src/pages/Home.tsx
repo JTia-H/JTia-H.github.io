@@ -65,8 +65,10 @@ export default function Home() {
             <p>
               Previously, during my Master's study under the supervision of{" "}
               <a href={advisorLi} target="_blank" rel="noreferrer">Prof. Haoyuan Li</a>, I pioneered
-              machine-learning-driven crystallization engines (such as NEgen1) and open-source
-              software platforms (such as MlCOFSyn) to model non-classical polymerization kinetics
+              machine-learning-driven crystallization engines (such as{" "}
+              <a href={publications[0].url} target="_blank" rel="noreferrer">NEgen1</a>) and open-source
+              software platforms (such as{" "}
+              <a href={publications[2].url} target="_blank" rel="noreferrer">MlCOFSyn</a>) to model non-classical polymerization kinetics
               and automate the synthesis of 2D Covalent Organic Frameworks (COFs).
             </p>
             <p>
