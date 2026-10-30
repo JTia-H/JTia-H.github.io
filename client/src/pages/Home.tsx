@@ -63,13 +63,15 @@ export default function Home() {
               <a href={advisorChen} target="_blank" rel="noreferrer">Prof. Shensheng Chen</a>.
             </p>
             <p>
-              My research focuses on physics-informed AI for Science, intrinsically
-              disordered proteins, liquid–liquid phase separation, and coarse-grained
-              force-field development.
+              I design Physics-Informed AI frameworks—leveraging Transformers, Prior-Data
+              Networks (PFNs), and Generative Models—to decode the complex landscapes of
+              Intrinsically Disordered Proteins (IDPs) and biomolecular condensates (LLPS).
             </p>
             <p>
-              I work with all-atom and coarse-grained molecular dynamics, as well as
-              Transformer, graph neural network, and diffusion architectures.
+              By embedding thermodynamic and biophysical principles into advanced neural
+              architectures, my work translates fundamental molecular simulation techniques
+              into high-throughput pipelines for structural ensemble generation, virtual
+              screening, and rational drug design.
             </p>
             <div className="profile__links" aria-label="Academic links">
               <a href="mailto:jtianaq@connect.ust.hk">Email</a>
@@ -86,7 +88,7 @@ export default function Home() {
           </h2>
           <ul className="cv-list">
             <li>
-              <span className="cv-list__main"><strong>Ph.D.</strong> @ The Hong Kong University of Science and Technology, 2023–present</span>
+              <span className="cv-list__main"><strong>Ph.D.</strong> @ The Hong Kong University of Science and Technology, 2025–present</span>
               <span>Department of Chemical &amp; Biological Engineering · Advisor: <a href={advisorChen} target="_blank" rel="noreferrer">Prof. Shensheng Chen</a></span>
             </li>
             <li>
